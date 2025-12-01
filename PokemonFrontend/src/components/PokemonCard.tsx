@@ -86,7 +86,7 @@ const PokemonCard = ({
             {rarity.replace("-", " ")}
           </p>
 
-          {/* Price */}
+          {/* Precio */}
           <div className="flex items-center justify-center gap-2 mb-4">
             <span className="font-display text-2xl text-pokemon-red">${price}</span>
             {originalPrice && <span className="text-muted-foreground line-through text-sm">${originalPrice}</span>}
