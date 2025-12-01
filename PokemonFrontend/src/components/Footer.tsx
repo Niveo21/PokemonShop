@@ -3,7 +3,7 @@ const Footer = () => {
   return <footer className="bg-pokemon-dark text-primary-foreground py-16">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand */}
+          {/* logito */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               
@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/*  Links */}
           <div>
             <h4 className="text-lg tracking-wider mb-4 text-pokemon-yellow font-sans">Enlaces</h4>
             <ul className="space-y-2">
