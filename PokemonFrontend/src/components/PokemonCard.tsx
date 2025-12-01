@@ -50,7 +50,7 @@ const PokemonCard = ({
   };
   return <div className="group relative">
       <div className="pokemon-card-shine relative bg-card rounded-2xl overflow-hidden shadow-card hover:shadow-card-hover transition-all duration-500 hover:-translate-y-2">
-        {/* Card gradient header */}
+        
         <div className={`h-32 bg-gradient-to-br ${gradientClass} relative`}>
           {/* Rarity badge */}
           <div className="absolute top-3 right-3 flex gap-0.5">
