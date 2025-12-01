@@ -95,7 +95,7 @@ const AuthModal = ({
 
   return <Dialog open={isOpen} onOpenChange={onClose}>
     <DialogContent className="sm:max-w-md bg-card border-pokemon-red/20 overflow-hidden">
-      {/* Decorative header */}
+      
       <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-pokemon-red via-pokemon-yellow to-pokemon-blue" />
 
       <DialogHeader className="pt-4">
